@@ -29,22 +29,30 @@
     <!-- Navbar -->
     <nav id="navbar" class="navbar fixed-top navbar-light bg-light navbar-expand-lg shadow-sm">
         <div class="container-fluid">
+
             <a class="navbar-brand" href="index.html">
                 <img height="40px" class="" src="./public/logo.png" alt="" />
-                <span class="d-none d-md-inline text-dark px-2">
+                <span class="d-none d-lg-inline text-dark px-2">
                     Study online with us
                 </span>
             </a>
 
-            <form class="d-flex" role="search">
-                <input class="d-none d-lg-block form-control me-2" type="search" placeholder="Search"
-                    aria-label="Search" />
+            <form class="d-none d-lg-flex w-25" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search courses, posts, ..." />
                 <button class="btn btn-outline-dark" type="submit">
                     <i class="fas fa-search"></i>
                 </button>
             </form>
 
-            <div class="collapse navbar-collapse px-4" id="navbarSupportedContent">
+            <a href="login.html" class="btn btn-primary d-block d-lg-none">Login</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse px-2" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 list-group d-flex flex-grow-1 justify-content-end">
                     <li class="list-group-numbered">
                         <a class="nav-link active text-dark" aria-current="page" href="index.html">
@@ -63,16 +71,16 @@
                     <li class="list-group-numbered">
                         <a class="nav-link text-dark" href="#"> <i class="fas fa-phone me-1"> </i> Contact</a>
                     </li>
+
+                    <li class="list-group-numbered d-block d-lg-none">
+                        <a class="nav-link text-dark" href="#">
+                            <i class="fa-solid fa-magnifying-glass me-1"></i> Search
+                        </a>
+                    </li>
                 </ul>
             </div>
 
-            <a href="login.html" class="btn btn-primary d-block d-md-inline">Login</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <!-- <span class="navbar-toggler-icon"></span> -->
-                <i class="fas fa-bars"></i>
-            </button>
+            <a href="login.html" class="btn btn-primary d-none d-lg-inline">Login</a>
         </div>
     </nav>
 
@@ -123,8 +131,6 @@
                 </button>
             </div>
         </div>
-
-        <!-- Courses -->
 
         <div id="categories" class="mt-4 container">
             <h1 class="fw-bold text-center text-decoration my-5">Our Courses</h1>
@@ -253,7 +259,6 @@
             </div>
         </div>
     </div>
-
     <!-- footer -->
 
     <footer id="footer" class="bg-dark py-4">
@@ -268,10 +273,10 @@
                     <div class="quick-link-detail">
                         <ul class="list-group">
                             <li class="list-group-numbered">
-                                <a class="text-light text-decoration-none" href="index.html">Home</a>
+                                <a class="text-light text-decoration-none" href="#navbar">Home</a>
                             </li>
                             <li class="list-group-numbered">
-                                <a class="text-light text-decoration-none" href="courses.html">Courses</a>
+                                <a class="text-light text-decoration-none" href="">Courses</a>
                             </li>
                             <li class="list-group-numbered">
                                 <a class="text-light text-decoration-none" href="">Blogs</a>
