@@ -3,3 +3,12 @@
     border-radius: 8px;
     box-shadow: 0.3px 1px rgba(109, 106, 106, 0.5);
 }
+
+#slider {
+    margin-top: 7rem;
+    height: 60vh;
+}
+
+#footer {
+    min-height: 40vh;
+}
