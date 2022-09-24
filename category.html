@@ -35,7 +35,7 @@
             id="navbar"
             class="navbar fixed-top navbar-light bg-light navbar-expand-lg shadow-sm"
         >
-            <div class="container-fluid">
+            <div class="container">
                 <a class="navbar-brand" href="index.html">
                     <img
                         height="40px"
@@ -43,40 +43,43 @@
                         src="./public/logo.png"
                         alt=""
                     />
-                    <span class="d-none d-md-inline text-dark px-2">
-                        Study online with us
-                    </span>
+                    <span class="text-primary px-2 fw-bold"> E-Learning </span>
                 </a>
 
-                <form class="d-flex" role="search">
+                <form class="d-none d-lg-flex col-4" role="search">
                     <input
-                        class="d-none d-lg-block form-control me-2"
+                        class="form-control me-2"
                         type="search"
-                        placeholder="Search"
-                        aria-label="Search"
+                        placeholder="Search courses, posts, ..."
                     />
-                    <button class="btn btn-outline-dark" type="submit">
+                    <button class="btn btn-outline-primary" type="submit">
                         <i class="fas fa-search"></i>
                     </button>
                 </form>
 
+                <a href="login.html" class="btn btn-primary d-block d-lg-none"
+                    >Login</a
+                >
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <i class="fas fa-bars"></i>
+                </button>
+
                 <div
-                    class="collapse navbar-collapse px-4"
+                    class="collapse navbar-collapse px-2"
                     id="navbarSupportedContent"
                 >
                     <ul
                         class="navbar-nav me-auto mb-2 mb-lg-0 list-group d-flex flex-grow-1 justify-content-end"
                     >
-                        <li class="list-group-numbered">
-                            <a
-                                class="nav-link active text-dark"
-                                aria-current="page"
-                                href="index.html"
-                            >
-                                <i class="fas fa-home me-1"></i> Home
-                            </a>
-                        </li>
-
                         <li class="list-group-numbered">
                             <a class="nav-link text-dark" href="courses.html">
                                 <i class="fas fa-book me-1"></i> Courses</a
@@ -89,29 +92,20 @@
                             >
                         </li>
 
-                        <li class="list-group-numbered">
+                        <li class="list-group-numbered d-block d-lg-none">
                             <a class="nav-link text-dark" href="#">
-                                <i class="fas fa-phone me-1"> </i> Contact</a
-                            >
+                                <i
+                                    class="fa-solid fa-magnifying-glass me-1"
+                                ></i>
+                                Search
+                            </a>
                         </li>
                     </ul>
                 </div>
 
-                <a href="login.html" class="btn btn-primary d-block d-md-inline"
+                <a href="login.html" class="btn btn-primary d-none d-lg-inline"
                     >Login</a
                 >
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <!-- <span class="navbar-toggler-icon"></span> -->
-                    <i class="fas fa-bars"></i>
-                </button>
             </div>
         </nav>
 
@@ -122,7 +116,10 @@
 
             <div class="mb-5 col-2">
                 <span class="px-3 fw-bolder">Sort by</span>
-                <select class="form-select py-3" aria-label="Default select example">
+                <select
+                    class="form-select py-3"
+                    aria-label="Default select example"
+                >
                     <option selected>Most relevant</option>
                     <option value="1">Most reviewed</option>
                     <option value="2">Highest rated</option>
@@ -145,12 +142,19 @@
                         <div class="course-name py-2">
                             <h5>HTML CSS Basic</h5>
                         </div>
-                        <p class="">Learn HTML, CSS in this course and become a front-end developer</p>
-                        <p class="course-author text-secondary">Dr. Strange, Bruce Banner</p>
+                        <p class="">
+                            Learn HTML, CSS in this course and become a
+                            front-end developer
+                        </p>
+                        <p class="course-author text-secondary">
+                            Dr. Strange, Bruce Banner
+                        </p>
                         <p class="course-count">
                             <i class="fa-solid fa-users"></i> 1234
                         </p>
-                        <p class="course-time text-secondary">100 total hours</p>
+                        <p class="course-time text-secondary">
+                            100 total hours
+                        </p>
                     </div>
                 </div>
             </div>
@@ -170,12 +174,19 @@
                         <div class="course-name py-2">
                             <h5>HTML CSS Basic</h5>
                         </div>
-                        <p class="">Learn HTML, CSS in this course and become a front-end developer</p>
-                        <p class="course-author text-secondary">Dr. Strange, Bruce Banner</p>
+                        <p class="">
+                            Learn HTML, CSS in this course and become a
+                            front-end developer
+                        </p>
+                        <p class="course-author text-secondary">
+                            Dr. Strange, Bruce Banner
+                        </p>
                         <p class="course-count">
                             <i class="fa-solid fa-users"></i> 1234
                         </p>
-                        <p class="course-time text-secondary">100 total hours</p>
+                        <p class="course-time text-secondary">
+                            100 total hours
+                        </p>
                     </div>
                 </div>
             </div>
@@ -195,12 +206,19 @@
                         <div class="course-name py-2">
                             <h5>HTML CSS Basic</h5>
                         </div>
-                        <p class="">Learn HTML, CSS in this course and become a front-end developer</p>
-                        <p class="course-author text-secondary">Dr. Strange, Bruce Banner</p>
+                        <p class="">
+                            Learn HTML, CSS in this course and become a
+                            front-end developer
+                        </p>
+                        <p class="course-author text-secondary">
+                            Dr. Strange, Bruce Banner
+                        </p>
                         <p class="course-count">
                             <i class="fa-solid fa-users"></i> 1234
                         </p>
-                        <p class="course-time text-secondary">100 total hours</p>
+                        <p class="course-time text-secondary">
+                            100 total hours
+                        </p>
                     </div>
                 </div>
             </div>
@@ -220,12 +238,19 @@
                         <div class="course-name py-2">
                             <h5>HTML CSS Basic</h5>
                         </div>
-                        <p class="">Learn HTML, CSS in this course and become a front-end developer</p>
-                        <p class="course-author text-secondary">Dr. Strange, Bruce Banner</p>
+                        <p class="">
+                            Learn HTML, CSS in this course and become a
+                            front-end developer
+                        </p>
+                        <p class="course-author text-secondary">
+                            Dr. Strange, Bruce Banner
+                        </p>
                         <p class="course-count">
                             <i class="fa-solid fa-users"></i> 1234
                         </p>
-                        <p class="course-time text-secondary">100 total hours</p>
+                        <p class="course-time text-secondary">
+                            100 total hours
+                        </p>
                     </div>
                 </div>
             </div>
@@ -295,7 +320,7 @@
                                 <li class="list-group-numbered">
                                     <p class="text-light">
                                         <i class="fas fa-envelope"></i>
-                                        g6@gmail.com
+                                        g6learning@gmail.com
                                     </p>
                                 </li>
                             </ul>
