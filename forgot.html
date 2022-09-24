@@ -19,12 +19,12 @@
 
    <!-- style sheet -->
    <link rel="stylesheet" href="./css/login.css" />
-   <title>Log in</title>
+   <title>Forgot Password</title>
 </head>
 
 <body>
    <nav id="navbar" class="navbar fixed-top navbar-light bg-light navbar-expand-lg shadow-sm">
-      <div class="container">
+      <div class="container-fluid">
 
          <a class="navbar-brand" href="index.html">
             <img height="40px" class="" src="./public/logo.png" alt="" />
@@ -56,29 +56,24 @@
                </li>
             </ul>
          </div>
+
       </div>
    </nav>
 
-
    <div id="login" class="container d-flex justify-content-lg-center flex-column align-items-center">
       <div class="mb-4">
-         <h2 class="fw-bold">Login to G6</h2>
+         <h2 class="fw-bold">Forgot Password</h2>
       </div>
 
       <form class="col-6 col-lg-4 d-flex flex-column">
          <div class="mb-3">
-            <label for="username" class="form-label">Username</label>
-            <input type="text" class="form-control" name="username" id="username">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" name="email" id="email">
          </div>
 
-         <div class="mb-3">
-            <label for="password" class="form-label">Password</label>
-            <input type="password" class="form-control" name="password" id="password">
-         </div>
-
-         <button type="submit" class="btn btn-primary">Login</button>
-         <p class="text-center mt-2">Don't have an account? <a href="/signup.html">Sign up</a></p>
-         <p class="text-center"> <a href="/forgot.html">Forgot password?</a> </p>
+         <button type="submit" class="btn btn-primary">Reset Password</button>
+         <a href="/resetPassword.html">Reset</a>
+         <p class="text-center mt-2">Back to <a href="/forgot.html">Login</a> </p>
       </form>
    </div>
 </body>
