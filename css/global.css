@@ -46,6 +46,22 @@ body {
 .user-info {
     margin-top: 10rem;
 }
+
 #lesson-main{
-    margin-top: 5rem;
+    margin-top: 4rem;
+}
+
+
+.lesson_dropdown_list {
+    height: 100vh;
+    overflow-y: scroll
+}
+
+.chapter span {
+    font-size: 0.8rem;
+}
+
+.lesson-item:hover {
+    background-color: rgba(240, 240, 240, 0.5);
+    cursor: pointer;
 }
