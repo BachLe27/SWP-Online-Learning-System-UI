@@ -65,3 +65,11 @@ body {
     background-color: rgba(240, 240, 240, 0.5);
     cursor: pointer;
 }
+
+.myCourses {
+    margin-top: 12rem;
+}
+
+.fa-star {
+    color: gold;
+}
