@@ -73,3 +73,9 @@ body {
 .fa-star {
     color: gold;
 }
+
+#course-detail-heading{
+    margin-top: 4rem;
+    background-color: #3988A0;
+    height: 200px;
+}
