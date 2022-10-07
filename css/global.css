@@ -66,6 +66,20 @@ body {
     cursor: pointer;
 }
 
+.my-courses {
+    margin-top: 12rem;
+}
+
+.fa-star {
+    color: gold;
+}
+
+#course-detail-heading{
+    margin-top: 4rem;
+    background-color: #2f697e;
+    height: 250px;
+}
+
 .purchase-history {
     margin-top: 12rem;
 }
@@ -73,4 +87,3 @@ body {
 #blog-main {
     margin-top: 7rem;
 }
-
