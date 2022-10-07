@@ -48,13 +48,12 @@ body {
 }
 
 #lesson-main{
-    margin-top: 4rem;
+    margin-top: 10vh;
 }
 
-
-.lesson_dropdown_list {
-    height: 100vh;
-    overflow-y: scroll
+.course-content {
+    height: 90vh;
+    overflow-y: scroll;
 }
 
 .chapter span {
