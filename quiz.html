@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- favicon -->
+        <link rel="icon" href="./public/favicon.ico" />
+
+        <!-- font-awesome -->
+        <script
+            src="https://kit.fontawesome.com/2a00decf25.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- bootstrap 5 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+            crossorigin="anonymous"
+        />
+
+        <!-- global style -->
+        <link rel="stylesheet" href="./css/global.css" />
+
+        <title>G6 - Online learning</title>
+    </head>
+    <body>
+        <nav id="quiz-nav" class="py-2 d-flex fixed-top bg-white shadow-sm">
+            <div class="align-self-center ms-5">
+                <button class="btn text-primary fw-bold">
+                    <i class="fas fa-arrow-left"></i>
+                    Back
+                </button>
+            </div>
+            <div class="ms-3 flex-grow-1">
+                <p class="fw-bold m-0">HTML CSS Basic web design</p>
+                <small class="m-0 text-muted">Graded quiz</small>
+            </div>
+            <div class="align-self-center me-5">
+                <span class="fw-bold mx-2">Taken date</span>
+                <small>dd/MM/yyyy</small>
+            </div>
+        </nav>
+
+        <div class="quiz-result bg-success bg-opacity-25 bg-gradient d-flex">
+            <div class="p-4">
+                <div class="d-flex align-items-center mb-3">
+                    <i class="fas fa-circle-check text-success"></i>
+                    <h4 class="fw-bold m-0 ms-2">Congratulations! You passed!</h4>
+                </div>
+                <div class="d-flex">
+                    <div class="pe-3">
+                        <span class="fw-semibold">Grade received</span>
+                        <span>10</span>
+                    </div>
+                    <div class="ps-3">
+                        <span class="fw-semibold">To pass</span>
+                        <span>8 or higher</span>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-grow-1"></div>
+            <div class="d-flex px-5">
+                <button class="btn btn-primary align-self-center">Go to next item</button>
+            </div>
+        </div>
+
+        <div id="quiz-main" class="container">
+            <div class="quiz-item container mt-5">
+                <p class="">
+                    <span class="fw-semibold">1 ) </span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Possimus, ducimus culpa. Ullam eius odio vero ipsum quisquam
+                    unde eveniet? Debitis atque totam corrupti voluptate fuga
+                    voluptas inventore, labore amet. Corporis.
+                </p>
+                <div class="quiz-option">
+                    <form action="">
+                        <div class="input-group py-3">
+                            <div class="input-group-text">
+                                <input
+                                    class="form-check-input mt-0"
+                                    type="radio"
+                                    name="option"
+                                    value=""
+                                    aria-label="Radio button for following text input"
+                                />
+                            </div>
+                            <input
+                                type="text"
+                                class="form-control px-4"
+                                value="A.   javalorant"
+                                aria-label="Text input with radio button"
+                                readonly
+                            />
+                        </div>
+                        <div class="input-group py-3">
+                            <div class="input-group-text">
+                                <input
+                                    class="form-check-input mt-0"
+                                    type="radio"
+                                    name="option"
+                                    value=""
+                                    aria-label="Radio button for following text input"
+                                />
+                            </div>
+                            <input
+                                type="text"
+                                class="form-control px-4"
+                                value="B.   htmlol"
+                                aria-label="Text input with radio button"
+                                readonly
+                            />
+                        </div>
+                        <div class="input-group py-3">
+                            <div class="input-group-text">
+                                <input
+                                    class="form-check-input mt-0"
+                                    type="radio"
+                                    name="option"
+                                    value=""
+                                    aria-label="Radio button for following text input"
+                                />
+                            </div>
+                            <input
+                                type="text"
+                                class="form-control px-4"
+                                value="C.   cssgo"
+                                aria-label="Text input with radio button"
+                                readonly
+                            />
+                        </div>
+                        <div class="input-group py-3">
+                            <div class="input-group-text">
+                                <input
+                                    class="form-check-input mt-0"
+                                    type="radio"
+                                    name="option"
+                                    value=""
+                                    aria-label="Radio button for following text input"
+                                />
+                            </div>
+                            <input
+                                type="text"
+                                class="form-control px-4"
+                                value="D.   htmlol"
+                                aria-label="Text input with radio button"
+                                readonly
+                            />
+                        </div>
+                    </form>
+                    <div class="bg-success bg-opacity-25 bg-gradient rounded-1">
+                        <p class="m-0 px-3 py-1 text-success fw-bold">
+                            <i class="far fa-circle-check"></i>
+                            Correct
+                        </p>
+                        <p class="m-0 px-3 py-1">javalorant is correct answer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quiz-item container mt-5">
+                <p class="">
+                    <span class="fw-semibold">2 ) </span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Possimus, ducimus culpa. Ullam eius odio vero ipsum quisquam
+                    unde eveniet? Debitis atque totam corrupti voluptate fuga
+                    voluptas inventore, labore amet. Corporis.
+                </p>
+                <div class="quiz-option">
+                    <form action="">
+                        <div class="input-group py-3">
+                            <div class="input-group-text">
+                                <input
+                                    class="form-check-input mt-0"
+                                    type="radio"
+                                    name="option"
+                                    value=""
+                                    aria-label="Radio button for following text input"
+                                />
+                            </div>
+                            <input
+                                type="text"
+                                class="form-control px-4"
+                                value="A.   javalorant"
+                                aria-label="Text input with radio button"
+                                readonly
+                            />
+                        </div>
+                        <div class="input-group py-3">
+                            <div class="input-group-text">
+                                <input
+                                    class="form-check-input mt-0"
+                                    type="radio"
+                                    name="option"
+                                    value=""
+                                    aria-label="Radio button for following text input"
+                                />
+                            </div>
+                            <input
+                                type="text"
+                                class="form-control px-4"
+                                value="B.   htmlol"
+                                aria-label="Text input with radio button"
+                                readonly
+                            />
+                        </div>
+                        <div class="input-group py-3">
+                            <div class="input-group-text">
+                                <input
+                                    class="form-check-input mt-0"
+                                    type="radio"
+                                    name="option"
+                                    value=""
+                                    aria-label="Radio button for following text input"
+                                />
+                            </div>
+                            <input
+                                type="text"
+                                class="form-control px-4"
+                                value="C.   cssgo"
+                                aria-label="Text input with radio button"
+                                readonly
+                            />
+                        </div>
+                        <div class="input-group py-3">
+                            <div class="input-group-text">
+                                <input
+                                    class="form-check-input mt-0"
+                                    type="radio"
+                                    name="option"
+                                    value=""
+                                    aria-label="Radio button for following text input"
+                                />
+                            </div>
+                            <input
+                                type="text"
+                                class="form-control px-4"
+                                value="D.   htmlol"
+                                aria-label="Text input with radio button"
+                                readonly
+                            />
+                        </div>
+                    </form>
+                    <div class="bg-danger bg-opacity-25 bg-gradient rounded-1">
+                        <p class="m-0 px-3 py-1 text-danger fw-bold">
+                            <i class="far fa-circle-xmark"></i>
+                            Incorrect
+                        </p>
+                        <p class="m-0 px-3 py-1">javalorant is correct answer</p>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="quiz-submit my-5 text-center">
+                <button class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </body>
+</html>
