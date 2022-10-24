@@ -87,3 +87,7 @@ body {
 #blog-main {
     margin-top: 7rem;
 }
+
+.post-item:hover {
+    cursor: pointer;
+}

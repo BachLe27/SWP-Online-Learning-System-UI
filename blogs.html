@@ -189,7 +189,12 @@
             </div>
 
             <div class="posts my-4">
-                <div class="post-item mb-3 row">
+                <div
+                    class="post-item mb-3 row"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#postModal"
+                >
                     <div class="post-img col-md-4">
                         <img width="100%" src="/images/java-web.png" alt="" />
                     </div>
@@ -207,6 +212,118 @@
                         <p class="fw-bold">Author - dd/MM/yyyy</p>
                     </div>
                 </div>
+
+                <!-- Modal -->
+                <div
+                    class="modal fade"
+                    id="postModal"
+                    tabindex="-1"
+                    aria-labelledby="postModalLabel"
+                    aria-hidden="true"
+                >
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-body p-0">
+                                <div class="row">
+                                    <div
+                                        class="col-md-6 d-flex justify-content-center bg-black"
+                                    >
+                                        <img
+                                            src="https://picsum.photos/500/500"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div
+                                        class="col-md-6 border-start p-0 d-flex flex-column"
+                                    >
+                                        <div
+                                            class="py-3 ps-3 me-3 border-bottom"
+                                        >
+                                            <img
+                                                class="rounded-circle"
+                                                src="https://picsum.photos/30/30"
+                                                alt=""
+                                            />
+                                            <span class="ps-2 small fw-semibold"
+                                                >Kian Vux</span
+                                            >
+                                            <button
+                                                type="button"
+                                                class="btn-close float-end me-3"
+                                                data-bs-dismiss="modal"
+                                                aria-label="Close"
+                                            ></button>
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <div class="pt-3 px-3">
+                                                <img
+                                                    class="rounded-circle"
+                                                    src="https://picsum.photos/30/30"
+                                                    alt=""
+                                                />
+                                                <span
+                                                    class="ps-2 small fw-semibold"
+                                                    >Kian Vux</span
+                                                >
+                                                <span class="small"
+                                                    >Comment</span
+                                                >
+                                            </div>
+                                            <div class="pt-3 px-3">
+                                                <img
+                                                    class="rounded-circle"
+                                                    src="https://picsum.photos/30/30"
+                                                    alt=""
+                                                />
+                                                <span
+                                                    class="ps-2 small fw-semibold"
+                                                    >Kian Vux</span
+                                                >
+                                                <span class="small"
+                                                    >Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing
+                                                    elit. A ullam quo architecto
+                                                    saepe asperiores nesciunt
+                                                    neque quisquam qui, magnam
+                                                    aliquid recusandae, quod
+                                                    voluptas eveniet totam est
+                                                    repellat. Iusto, quibusdam
+                                                    error?</span
+                                                >
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="interaction border-top h-25 py-2 ps-3 me-3"
+                                        >
+                                            <i
+                                                class="far fa-heart fs-5 pe-2"
+                                            ></i>
+                                            <i
+                                                class="far fa-comment fs-5 pe-2"
+                                            ></i>
+                                            <i
+                                                class="fas fa-share fs-5 pe-2"
+                                            ></i>
+                                            <p class="m-0">
+                                                Liked by <b>Kian Vux</b> and
+                                                <b>71 others</b>
+                                            </p>
+                                            <p class="m-0 small text-secondary">
+                                                dd/MM/yyyy
+                                            </p>
+                                            <form class="pe-3">
+                                                <input class="form-control
+                                                border-0" type="text" name=""
+                                                placeholder="Add a comment" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="post-item mb-3 row">
                     <div class="post-img col-md-4">
                         <img width="100%" src="/images/java-web.png" alt="" />
